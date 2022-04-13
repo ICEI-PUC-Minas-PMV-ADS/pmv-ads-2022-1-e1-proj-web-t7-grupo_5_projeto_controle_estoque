@@ -1,23 +1,28 @@
-# TÍTULO DO PROJETO
+#Controle de estoque
 
-`CURSO`
+`Análise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação Front-End`
 
-`SEMESTRE`
+`1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto visa a desenvolver controle automatizado para o fluxo de mercadorias de estoques e automatizar a emissão de notas fiscais de produtos vendidos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+Álvaro de Miranda Junior
+Gustavo Alves Oliveira
+Jefferson Filho
+José Carlos da Costa Júnior
+Leonardo Guilherme da Fonseca Alves
+Marcos Vinícius
+Nelita Moreira
+ 
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nathália
 
 ## Instruções de utilização
 
