@@ -10,13 +10,13 @@ O projeto visa a desenvolver controle automatizado para o fluxo de mercadorias d
 
 ## Integrantes
 
-Álvaro de Miranda Junior
-Gustavo Alves Oliveira
-Jefferson Filho
-José Carlos da Costa Júnior
-Leonardo Guilherme da Fonseca Alves
-Marcos Vinícius
-Nelita Moreira
+*Álvaro de Miranda Junior
+*Gustavo Alves Oliveira
+*Jefferson Filho
+*José Carlos da Costa Júnior
+*Leonardo Guilherme da Fonseca Alves
+*Marcos Vinícius
+*Nelita Moreira
  
 
 
