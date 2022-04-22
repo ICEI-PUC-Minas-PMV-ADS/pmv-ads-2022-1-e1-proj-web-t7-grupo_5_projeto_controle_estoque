@@ -41,7 +41,7 @@ A equipe está organizada da seguinte maneira:
 	-    Nelita Moreira
 	-    Marcos Vinícius
 -	Equipe de Design
-     -	Leonardo Guilherme
+    -	Leonardo Guilherme
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 -	Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
@@ -65,11 +65,11 @@ O quadro kanban do grupo no Trello está disponível através da URL https://tre
 
 
 As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
-●	Desenvolvimento 
-●	Documentação                                 
-●	Infraestrutura
-●	Testes
-●	Gerência de Projetos.
+-	Desenvolvimento 
+-	Documentação                                 
+-	Infraestrutura
+-	Testes
+-	Gerência de Projetos.
 
 <img src="img/Etiquetas.png">
 
