@@ -36,12 +36,12 @@ A equipe está organizada da seguinte maneira:
 -	Scrum Master: Gustavo Alves
 -	Product Owner: Alvaro
 -	Equipe de Desenvolvimento
-○	    Jefferson Filho
-○	    José Carlos
-○	    Nelita Moreira
-○	    Marcos Vinícius
+	-    Jefferson Filho
+	-    José Carlos
+	-    Nelita Moreira
+	-    Marcos Vinícius
 -	Equipe de Design
-○	Leonardo Guilherme
+     -	Leonardo Guilherme
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 -	Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
