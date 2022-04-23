@@ -7,7 +7,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | --------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Repositório de código fonte       | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t7-grupo_5_projeto_controle_estoque                |
 | Documentos do projeto             | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t7-grupo_5_projeto_controle_estoque/tree/main/docs |
-| Projeto de Interface e Wireframes | MarvelApp  | https://marvelapp.com/4hd6091                                                                                           |
+| Projeto de Interface e Wireframes | MarvelApp  | https://marvelapp.com/prototype/7g30c2j4hd6091                                                                                           |
 | Gerenciamento do Projeto          | Trello     | https://trello.com/b/W3KvVOnX/projeto-puc                                                                               |
 
 
@@ -16,7 +16,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no WorkFlow, mostrado na Figura a seguir. Desta forma, todas as alterações no código são realizadas em branches, onde os desenvolvedores devem criar um branch para cada funcionalidade nova no projeto.
 
 
-<img src="img/Workflow.png">
+<img src="img/Metodologia/Workflow.png">
 
 
 ###### Figura X - Fluxo de controle do código fonte no repositório git
@@ -59,7 +59,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/W3KvVOnX/projeto-puc e é apresentado, no estado atual, na Figura 2.
 
 
-<img src="img/Kanban.png">
+<img src="img/Metodologia/Kanban.png">
 
 ###### Figura 2 - Tela do kanban utilizada pelo grupo
 
@@ -71,7 +71,7 @@ As tarefas são, ainda, etiquetadas em função da natureza da atividade e segue
 -	Testes
 -	Gerência de Projetos.
 
-<img src="img/Etiquetas.png">
+<img src="img/Metodologia/Etiquetas.png">
 
 
 
