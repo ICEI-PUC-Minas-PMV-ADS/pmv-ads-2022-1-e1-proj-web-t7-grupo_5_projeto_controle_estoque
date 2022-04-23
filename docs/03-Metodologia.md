@@ -7,7 +7,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | --------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Repositório de código fonte       | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t7-grupo_5_projeto_controle_estoque                |
 | Documentos do projeto             | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t7-grupo_5_projeto_controle_estoque/tree/main/docs |
-| Projeto de Interface e Wireframes | MarvelApp  | https://marvelapp.com/prototype/7g30c2j4hd6091                                                                                           |
+| Projeto de Interface e Wireframes | MarvelApp  | https://marvelapp.com/prototype/7g30c2j                                                                                           |
 | Gerenciamento do Projeto          | Trello     | https://trello.com/b/W3KvVOnX/projeto-puc                                                                               |
 
 
