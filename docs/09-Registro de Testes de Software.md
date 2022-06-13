@@ -1,12 +1,29 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+## CT-01: Login
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+<img src="img/Registro-de-testes-de-software/Login.png">
 
-## Avaliação
+---
+## CT-02: Parceiros
+<img src="img/Registro-de-testes-de-software/Parceiros.png">
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+---
+## CT-03: Cadastro de um novo produto
+<img src="img/Registro-de-testes-de-software/Cadastro_de_produto.png">
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+---
+## CT-04: Baixar relatório em xlsx (Excel)
+<img src="img/Registro-de-testes-de-software/Relatório.png">
+
+---
+## CT-05: Emitir Nota Fiscal
+<img src="img/Registro-de-testes-de-software/Nota_fiscal.png">
+
+---
+## CT-06: Remover um produto
+<img src="img/Registro-de-testes-de-software/Remover_produto.png">
+
+---
+## CT-07: Solicitar Apoio do Suporte
+<img src="img/Registro-de-testes-de-software/Suporte.png">
