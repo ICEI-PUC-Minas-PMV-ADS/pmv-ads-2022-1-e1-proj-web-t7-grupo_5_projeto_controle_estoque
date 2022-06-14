@@ -23,13 +23,13 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
+O site utiliza a plataforma do Git-Hub como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
 
-<a href="https://link_exemplo.herokuapp.com ">https://link_exemplo.herokuapp.com </a>
+<a href="https://gurudevop7884.github.io/Projeto-Puc-Bootstrap/index.html">https://gurudevop7884.github.io/Projeto-Puc-Bootstrap/index.html</a>
 
-A publicação do site no Heroku é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: 
+A publicação do site no GitHub é feita por meio de uma submissão do projeto (push) via git para o GitHub pages que se encontra no endereço: 
 
-https://git.heroku.com/link_exemplo.git
+https://github.com/usuário/repositório/settings/pages
 
 ---
 

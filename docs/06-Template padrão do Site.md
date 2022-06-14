@@ -14,7 +14,6 @@ O template criado está disponível no site https://gurudevop7884.github.io/Proj
 -	Estoque
 -	Notas fiscais
 -	Parceiros
--	Perfil
 
 A responsividade do site é realizada por meio do Bootstrap – principalmente media queries.
 
@@ -56,7 +55,7 @@ Nessa tela, o usuário poderá adicionar ou remover itens do estoque (já realiz
 
 Nesta tela, o usuário pode emitir notas fiscais de produtos recém vendidos. Isso ainda está em fase de implementação. 
 
-<img src="img/Template-padrão-do-site/Login.png">
+<img src="img/Template-padrão-do-site/Notas-Fiscais.png">
 
 ###### Figura 17
 
@@ -72,7 +71,7 @@ Nessa tela, são mostrados os parceiros da empresa.
 
 ---
 
-### Perfil
+<!-- ### Perfil
 
 Nessa tela, é mostrado o perfil do usuário logado. Isso ainda está em fase de implementação. 
 
@@ -80,7 +79,7 @@ Nessa tela, é mostrado o perfil do usuário logado. Isso ainda está em fase de
 
 ###### Figura 19
 
----
+--- -->
 
 ## Referências
 
