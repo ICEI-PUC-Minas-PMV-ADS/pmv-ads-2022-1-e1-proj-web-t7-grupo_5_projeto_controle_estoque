@@ -12,13 +12,19 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
   
   <img src="../docs/img/Projeto-interface/Home.png">
 
+---
+
 - ## Página de login
   
   <img src="../docs/img/Projeto-interface/Login.png">
 
+  ---
+
 - ## Página de cadastro
   
   <img src="../docs/img/Projeto-interface/Cadastro.png">
+
+   ---
 
 ### [0.1.1] - 14/05/2022
 #### Adicionado
@@ -26,17 +32,25 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
   
   <img src="../docs/img/Programação-de-funcionalidades/Tela-de-estoque.png">
 
+   ---
+
 - ## Barra de pesquisa
   
   <img src="../docs/img/Programação-de-funcionalidades/Pesquisa-Produtos.png">
+
+   ---
 
 - ## Perfil
   
   <img src="../docs/img/Programação-de-funcionalidades/Perfil.png">
   
+   ---
+
 - ## Parceiros
 
   <img src="../docs/img/Programação-de-funcionalidades/Info-Clientes.png">
+
+   ---
 
 ### [0.2.0] - 24/05/2022
 #### Adicionado
