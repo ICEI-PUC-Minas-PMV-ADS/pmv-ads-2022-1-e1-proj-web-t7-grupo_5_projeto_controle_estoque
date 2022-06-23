@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="homepage.css">
+
+
+
+  <title>Projeto</title>
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-dark ">
+      <a class="navbar-brand mb-0 h1" href="index.html">Inicio</a>
+      <form class="form-inline">
+        <button class="login_btn btn btn-dark" type="button" onclick="logout()">Sair</button>
+      </form>
+    </nav>
+
+
+    <div class="container">
+      <div class="col-sm-3 navpills">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+          <a class="nav-link active" id="v-pills-estoque-tab" data-toggle="pill" href="#v-pills-estoque" role="tab"
+            aria-controls="v-pills-estoque" aria-selected="true">Estoque
+          </a>
+          <a class="nav-link" id="v-pills-parceiros-tab" data-toggle="pill" href="#v-pills-parceiros" role="tab"
+            aria-controls="v-pills-parceiros" aria-selected="false">Parceiros
+          </a>
+
+        </div>
+      </div>
+
+      <div class="col-sm-9">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-estoque" role="tabpanel"
+            aria-labelledby="v-pills-estoque-tab">
+
+
+          <div class="barra_estoque1">
+            <label class="label h5 mt-5" for="nome_do_produto">Nome do produto</label>
+            <br>
+           <input id= 'nome_do_produto' class="form-control" placeholder="Digite o nome do produto">
+            <br>
+           <label class="label h5" for="preco_do_produto">Preço do produto</label>
+            <br>
+           <input id = 'preco_do_produto' class="form-control" placeholder="Digite o preço do produto">
+            <br>
+            <br>
+            <div class="botoes_ad_rm">
+              <button class="btn btn-primary mb-5" onclick="adicionarItem()">Adicionar</button>
+              <button class="btn btn-outline-danger mb-5" onclick="removerItem()">Remover</button>
+            </div>
+          </div>
+
+              <!-- barra de estoque responsiva -->
+            <div class="barra_estoque border">
+              <div>
+                <label class="label mt-5" for="nome_do_produto"><h4>Nome do produto</h4></label>
+                <br>
+                <input id='nome_do_produto' class="form-control" placeholder="Digite o nome do produto">
+                <br>
+                <label class="label mt-2" for="preco_do_produto"><h4>Preço do produto</h4></label>
+                <br>
+                <input id='preco_do_produto' class="form-control w-10" placeholder="Digite o preço do produto">
+                <br>
+                <br>
+                <div class="botoes_ad_rm">
+                  <button class="btn btn-primary mb-5" onclick="adicionarItem()">Adicionar</button>
+                  <button class="btn btn-outline-danger mb-5" onclick="removerItem()">Remover</button>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div id="tabela" class="table-responsive">
+
+              <table id='tabela_completa' class="table table-md table-striped table-bordered table2excel"
+                data-tableName="Test Table 1">
+                <thead>
+                  <tr class="">
+                    <th id="produto">Produto</th>
+                    <th id="preco">Preco</th>
+                    <th id="data">Data</th>
+                    <th id="hora">Hora</th>
+                  </tr>
+                </thead>
+                <tbody id="estoque">
+                  <tr>
+                    <td>Baba Eletrônica Sem Fio Tela Lcd Com Câmera Noturna</td>
+                    <td>336</td>
+                    <td>16/05/2022</td>
+                    <td>14:28:20</td>
+                  </tr>
+                  <tr>
+                    <td>Tapete 2,50 X 2,00 Pelos Altos Felpo Felpudo Pra Sala Quarto</td>
+                    <td>165</td>
+                    <td>14/05/2022</td>
+                    <td>14:47:10</td>
+                  </tr>
+                  <tr>
+                    <td>Alto-falante JBL Boombox 2 portátil com bluetooth black</td>
+                    <td>2459</td>
+                    <td>13/05/2022</td>
+                    <td>08:21:12</td>
+                  </tr>
+                  <tr>
+                    <td>Moto E7 Power Dual SIM 32 GB azul-metálico 2 GB RAM</td>
+                    <td>840</td>
+                    <td>10/05/2022</td>
+                    <td>10:32:37</td>
+                  </tr>
+                  <tr>
+                    <td>Mini Processador Triturador Manual De Alimentos 3 Laminas</td>
+                    <td>26</td>
+                    <td>09/05/2022</td>
+                    <td>13:22:20</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+                <button class="exportToExcel btn btn-outline-success mb-3">Baixar relatório excel</button>
+                <button class="notaBtn btn btn-outline-primary mb-3" id="emitir_nf">Emitir nota fiscal</button>
+              
+            </div>
+          </div>
+          <!-- PARCEIROS -->
+          <div class="tab-pane fade" id="v-pills-parceiros" role="tabpanel" aria-labelledby="v-pills-parceiros-tab">
+            <!-- Parceiro1 -->
+            <div class="card-container">
+              <div class="card mb-3" style="width: 18rem;">
+                <div class="m-2">
+                  <img src="img/Parceiros/parceiro 1.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <h4>Fabrício Matarazzo</h4>
+                  <b>Idade</b>: 35 <br>
+                  <b>Ocupação</b>: Administrador de empresas.
+
+                  <h5><b>Contato</b>:</h5>
+                  <ul class="contato">
+                    <li><a href="#"> <i class="icone-transicao" data-feather="facebook">Facebook</i></a>
+                    </li>
+                    <li><a href="#"><i class="icone-transicao" data-feather="linkedin">Linkedin</i></a>
+                    </li>
+                    <li><a href="#" onmouseover="this.style.color='rgb(10, 165, 249)'" onmouseout="this.style.color=''"> <i class="icone-transicao" data-feather="mail">Email</i></a>
+                    </li>
+                    <li><a href="#" onmouseover="this.style.color='rgb(18, 197, 18)'" onmouseout="this.style.color=''">
+                      <i class="icone-transicao" data-feather="message-circle">WhatsApp</i></a>
+                    </li>
+
+                        
+                  </ul>
+                  </p>
+                </div>
+              </div>
+              <!-- Parceiro2 -->
+              <div class="card mb-3" style="width: 18rem;">
+                <div class="m-2">
+                  <img src="img/Parceiros/parceiro2.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <h4>Mateus Kenji</h4>
+                  <b>Idade</b>: 22 <br>
+                  <b>Ocupação</b>: Dono de uma loja de games.
+
+                  <h5><b>Contato</b>:</h5>
+                  <ul class="contato">
+                    <li><a href="#"> <i class="icone-transicao" data-feather="facebook">Facebook</i></a></li>
+                    <li><a href="#"><i class="icone-transicao" data-feather="linkedin">Linkedin</i></a></li>
+                    <li><a href="#" onmouseover="this.style.color='rgb(10, 165, 249)'" onmouseout="this.style.color=''">
+                        <i class="icone-transicao" data-feather="mail">Email</i></a></li>
+                    <li><a href="#" onmouseover="this.style.color='rgb(18, 197, 18)'" onmouseout="this.style.color=''">
+                        <i class="icone-transicao" data-feather="message-circle">WhatsApp</i></a></li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+              <!-- Parceiro3 -->
+              <div class="card mb-3" style="width: 18rem;">
+                <div class="m-2">
+                  <img src="img/Parceiros/parceiro3.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <h4>Diogo Ferrari</h4>
+                  <b>Idade</b>: 35 <br>
+                  <b>Ocupação</b>: Proprietário de uma revenda de autopeças.
+
+                  <h5><b>Contato</b>:</h5>
+                  <ul class="contato">
+                    <li><a href="#"> <i class="icone-transicao" data-feather="facebook">Facebook</i></a></li>
+                    <li><a href="#"><i class="icone-transicao" data-feather="linkedin">Linkedin</i></a></li>
+                    <li><a href="#" onmouseover="this.style.color='rgb(10, 165, 249)'" onmouseout="this.style.color=''">
+                        <i class="icone-transicao" data-feather="mail">Email</i></a></li>
+                    <li><a href="#" onmouseover="this.style.color='rgb(18, 197, 18)'" onmouseout="this.style.color=''">
+                        <i class="icone-transicao" data-feather="message-circle">WhatsApp</i></a></li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+              <!-- Parceiro 4 -->
+              <div class="card mb-3" style="width: 18rem;">
+                <div class="m-2">
+                  <img src="img/Parceiros/parceiro4.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <h4>Patrícia Olimpio</h4>
+                  <b>Idade</b>: 37 <br>
+                  <b>Ocupação</b>: Nutricionista, dona de uma pequena fábrica 
+
+                  <h5><b>Contato</b>:</h5>
+                  <ul class="contato">
+                    <li><a href="#"> <i class="icone-transicao" data-feather="facebook">Facebook</i></a></li>
+                    <li><a href="#"><i class="icone-transicao" data-feather="linkedin">Linkedin</i></a></li>
+                    <li><a href="#" onmouseover="this.style.color='rgb(10, 165, 249)'" onmouseout="this.style.color=''">
+                        <i class="icone-transicao" data-feather="mail">Email</i></a></li>
+                    <li><a href="#" onmouseover="this.style.color='rgb(18, 197, 18)'" onmouseout="this.style.color=''">
+                        <i class="icone-transicao" data-feather="message-circle">WhatsApp</i></a></li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+ 
+    <footer>
+      <div class="rodape">
+        <div class="rodape-links">
+            <a href="#" target="_blank">Informações </a>-
+            <a href="mailto:gugaalves92@hotmail.com" target="_blank">Suporte </a>-
+            <a href="#" target="_blank">Markerting</a>
+          </div>
+          <p class="mt-2">Termos de Uso - Politica de Privacidade</p>
+          <p class="text-muted">@ 2022 Puc | Developed by Turma 7</p>
+      </div>
+    </footer>
+
+  
+
+
+
+
+
+
+
+
+
+</body>
+<!-- Icones -->
+<script src="https://unpkg.com/feather-icons"></script>
+<!----------->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+<script src="js/jquery.table2excel.js"></script>
+<script src="main.js"></script>
+<script src="homepage.js"></script>
+
+</html>

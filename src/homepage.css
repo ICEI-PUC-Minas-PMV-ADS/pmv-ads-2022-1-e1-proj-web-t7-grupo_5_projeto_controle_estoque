@@ -1,0 +1,157 @@
+
+.container{
+  max-width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.barra_estoque{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.contato{
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.contato> li > a{
+    color: rgb(49, 94, 227);
+}
+
+.card-container{
+    display: flex;
+    margin: 5px;
+}
+
+.card {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    background: #fff;
+    float: left;
+  }
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(6, 6, 6, 0.2); 
+    
+  }
+  
+.icone-transicao:hover{
+    transform: scale(1.4);
+    transition: ease-out 0.2s;
+    
+}
+
+
+#tabela tr td:last-child{
+    text-align: right;
+  }
+  
+
+  #tabela tr:nth-child(odd){
+    background-color: #eee;
+  }
+  
+  
+  #tabela tr:hover td{
+    background-color: #feffb7;
+  }
+  
+ 
+  #tabela tr.selecionado td{
+    background-color: #aff7ff;
+  }
+
+  /* Responsividade cards */
+
+ @media (max-width: 1370px){
+
+  .card-container{
+      display: inline-block;
+      width: 100%;
+ }
+}
+
+@media (min-width: 500px) and (max-width: 578px){
+
+.card-container{
+   display: inline-block;
+   width: 100%;
+   padding-right: 135px;
+   padding-left: 135px;
+   padding-top: 10px;
+   scroll-behavior: none;
+}
+
+.navPrincipal{
+    width: fit-content;
+}
+
+.exportToExcel{
+    /* display: inline; */
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 499px){
+
+.card-container{
+    display: inline-block;
+    width: 100%;
+    padding-left: 12%;
+}
+
+.navPrincipal{
+    width: fit-content;
+  }
+}
+
+@media (min-width: 574px) {
+  
+.barra_estoque{
+    display: none;
+}
+
+.container{
+    padding: 0;
+}
+
+.navpills{
+    padding: 0;
+}
+  
+}
+
+@media (min-width: 0px) and (max-width: 574px){
+  
+.barra_estoque1{
+    display: none;
+}
+
+.container{
+    display: block;
+    padding: 0;
+}
+
+.col-sm-9{
+    padding: 0;
+}
+
+.navpills{
+    padding: 0;
+}
+
+.exportToExcel{
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+
+.notaBtn{
+    margin-right: 0;
+}
+}
+

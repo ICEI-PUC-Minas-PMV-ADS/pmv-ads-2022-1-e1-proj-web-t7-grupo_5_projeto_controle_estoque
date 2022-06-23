@@ -1,0 +1,145 @@
+/* LOGIN.HTML */
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.texto_log{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.input_log{
+    background: #FFFFFF;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.25rem;
+    padding: 50px 350px 50px 50px;  
+}
+
+
+.input_log> input{
+    margin-bottom: 1.875rem;
+    height: 2.5rem;
+    width: 20rem;
+}
+
+.input_log> button{
+    height: 2.5rem;
+    width: 20rem;
+}
+
+
+/* INDEX.HTML */
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.login_btn{
+    margin-left: 2rem;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.navbar{
+    background-color: #00a6ff;
+}
+
+.navbar form{
+    display: flex;
+    justify-content:end ;
+}
+
+.navbar a{
+    margin-left: 1rem;
+    /* text-transform: uppercase; */
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    margin: 165px 0px 265px 0px;
+}
+
+img{
+    width: 30rem;
+    height: 18rem;  
+}
+
+.conteudo p{  
+    margin-top: 5rem;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #47525e; 
+}
+
+/* .rodape_text{
+font-size: xx-large;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+} */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    padding: 20px 0px 20px 0px;
+    background-color: #bfe9ff;
+}
+
+button{
+    margin-right: 1rem;
+}
+
+
+@media (min-width:400px) and (max-width:575px)
+{
+    
+    .input_log{
+        margin-left: 14%;
+        border: none;
+        padding: 0;
+        box-shadow: none;
+    }
+     
+}
+
+
+@media (min-width:300px) and (max-width:400px)
+{
+
+    .input_log{
+        margin-left: 11.5%;
+        border: none;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .input_log input{
+        margin-bottom: 1.875rem;
+        height: 2.5rem;
+        width: 17.5rem;
+    }
+    
+    .input_log button{
+        margin-bottom: 1.875rem;
+        height: 2.5rem;
+        width: 17.5rem;
+    }
+}
