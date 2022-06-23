@@ -6,6 +6,7 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ## Histórico de versões
 
+<<<<<<< HEAD
 ### [0.1.0] - 27/04/2022
 #### Adicionado
 - ## Página inicial do site
@@ -102,3 +103,8 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
   <img src="../docs/img/Template-padrão-do-site/Responsividade.png">
   
+=======
+### [0.1.0] - DD/MM/AAAA
+#### Adicionado
+- Adicionado ...
+>>>>>>> d6d87914cee0823c184a7313a24948abaed16647
