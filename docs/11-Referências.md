@@ -1,6 +1,5 @@
 # Referências
 
-<<<<<<< HEAD
 <!-- Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho. -->
 
 > **Links Úteis**:
@@ -12,10 +11,3 @@
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 > - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
 
-=======
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
->>>>>>> d6d87914cee0823c184a7313a24948abaed16647
